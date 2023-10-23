@@ -1,2 +1,2 @@
 # media-queries
-Ejercicios Media Queries
+Desafío - Electric Car Store
