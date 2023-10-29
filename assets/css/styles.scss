@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+
+  .gridcontainer{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas:
+    'nvbar'
+    'filt' 
+    'productos'
+    'footer';
+
+
+
+.nvbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #00579c;
+    grid-area: nvbar;
+
+}
+
+.nvbar svg{
+
+    fill: white;
+    width: 50px;
+    height: 50px;
+}
+
+.nvbar p{
+
+color: white;
+
+}
+
+
+
+.filt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dde3e9;
+    grid-area: filt;
+
+}
+
+.productos{
+
+    background-color: #ffffff;
+    grid-area: productos;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #012f6b;
+    color: #ffffff;
+    grid-area: footer;
+
+
+}
+
+.footer svg{
+
+    fill: white;
+    width: 50px;
+    height: 50px;
+}
+
+}
