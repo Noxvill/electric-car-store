@@ -16,14 +16,23 @@
 .gridcontainer .nvbar {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   background-color: #00579c;
   grid-area: nvbar;
 }
 .gridcontainer .nvbar svg {
   fill: white;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+}
+.gridcontainer .icontittle {
+  margin: 0 0 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+.gridcontainer .svg2 {
+  margin: 0 15px 0 0;
 }
 .gridcontainer .nvbar p {
   color: white;
@@ -32,8 +41,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: #dde3e9;
   grid-area: filt;
+}
+.gridcontainer .filtip {
+  display: block;
+  height: 30px;
+  width: 85%;
+  border-radius: 2px;
+  border-color: #ffffff;
+  margin: 1% 0 2% 0;
+  font-size: 15px;
 }
 .gridcontainer .productos {
   background-color: #ffffff;
@@ -50,6 +69,6 @@
 }
 .gridcontainer .footer svg {
   fill: white;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=styles.css.map */
