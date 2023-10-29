@@ -58,7 +58,6 @@
 .gridcontainer .productos {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
   grid-area: productos;
 }
 .gridcontainer .grid-container {
@@ -69,18 +68,23 @@
   text-align: center;
 }
 .gridcontainer .grid-item {
-  margin: 10px 0 0 0;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  box-shadow: 0px 2px #e2e2e2;
+  margin: 20px 0 0 0;
   display: flex;
   flex-direction: column;
-  height: 300px;
-  width: 300px;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  width: 280px;
 }
 .gridcontainer .grid-item img {
-  height: 250px;
-  width: 230px;
+  height: 230px;
+  width: 210px;
 }
 .gridcontainer .btnvermas {
-  margin: 8% 0 0 0;
+  margin: 5% 0 5% 0;
   border-radius: 4px;
   border-color: #01579c;
   height: 60%;
@@ -91,9 +95,17 @@
   background-color: #01579c;
 }
 .gridcontainer .botones-pag {
-  margin: 50px;
+  margin: 20px;
   display: flex;
   flex-direction: row;
+}
+.gridcontainer .btnnum {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #4393d0;
 }
 .gridcontainer .footer {
   display: flex;
