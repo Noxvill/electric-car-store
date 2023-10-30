@@ -65,8 +65,10 @@
   grid-area: productos;
 }
 .gridcontainer .grid-container {
+  margin: 0 0 0 0;
   display: grid;
   grid-template-columns: 100%;
+  justify-content: center;
   justify-items: center;
   align-items: center;
   text-align: center;
