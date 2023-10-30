@@ -37,6 +37,9 @@
 .gridcontainer .nvbar p {
   color: white;
 }
+.gridcontainer .menulat {
+  display: none;
+}
 .gridcontainer .filt {
   display: flex;
   flex-direction: column;
@@ -120,4 +123,21 @@
   fill: white;
   width: 20px;
   height: 20px;
+}
+
+@media (min-width: 576px) {
+  .gridcontainer {
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "nvbar filt" "nvbar productos" "footer productos";
+  }
+  .svg2 {
+    display: none;
+  }
+  .filt {
+    height: 80px;
+  }
+  .footer {
+    height: 180px;
+  }
 }/*# sourceMappingURL=styles.css.map */
