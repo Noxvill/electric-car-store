@@ -6,6 +6,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap');
 
 
+
+
 //Vista Mobile
 
   
@@ -26,9 +28,9 @@
 
 .nvbar{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
     background-color: #00579c;
     grid-area: nvbar;
 
@@ -39,12 +41,21 @@
     fill: white;
     width: 30px;
     height: 30px;
+    margin: 0px 0 0 0;
     
 }
 
+.p1nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 
 .icontittle{
-    margin: 0 0 0 20px;
+    margin: 20px 0 0 20px;
     display: flex;
     flex-direction: row;
 
@@ -52,20 +63,16 @@
 
 .svg2{
 
-    margin: 0 15px 0 0;
+    margin: 20px 20px 0 0;
 }
+
+
 
 .nvbar p{
 
 color: white;
 
 }
-
-.menulat{
-
-    display: none;
-}
-
 
 .filt{
     display: flex;
@@ -187,6 +194,8 @@ color: #4393d0;
 }
   
 
+
+
 // Vista Desktop
 @media (min-width: 576px){
 
@@ -207,6 +216,15 @@ color: #4393d0;
     }
 
 
+    .menulat{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 400px
+        
+    }
+
 .filt{
 
 height: 80px;
@@ -221,5 +239,11 @@ height: 180px;
 
     }
     
+    @media (max-width:576px){
 
+        .menulat{
+    
+            display: none;
+        }
+      }
 
