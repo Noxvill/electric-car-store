@@ -143,13 +143,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 400px;
+    margin: 0 0 300px 0;
   }
   .filt {
     height: 80px;
   }
   .footer {
-    height: 180px;
+    height: 100px;
   }
 }
 @media (max-width: 576px) {
