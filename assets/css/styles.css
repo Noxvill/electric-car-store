@@ -16,7 +16,6 @@
 .gridcontainer .nvbar {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: #00579c;
   grid-area: nvbar;
 }
@@ -32,12 +31,12 @@
   justify-content: space-between;
 }
 .gridcontainer .icontittle {
-  margin: 20px 0 0 20px;
+  margin: 20px 0px 0 10px;
   display: flex;
   flex-direction: row;
 }
 .gridcontainer .svg2 {
-  margin: 20px 20px 0 0;
+  margin: 20px 10px 0 0px;
 }
 .gridcontainer .nvbar p {
   color: white;
@@ -120,6 +119,7 @@
   background-color: #012f6b;
   color: #ffffff;
   grid-area: footer;
+  text-align: justify;
 }
 .gridcontainer .footer svg {
   fill: white;
@@ -135,6 +135,9 @@
   }
   .svg2 {
     display: none;
+  }
+  .nvbar {
+    align-items: center;
   }
   .menulat {
     display: flex;

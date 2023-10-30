@@ -29,10 +29,12 @@
 .nvbar{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    // justify-content: space-between;
+    // align-items: center;
     // align-items: center;
     background-color: #00579c;
     grid-area: nvbar;
+   
 
 }
 
@@ -55,7 +57,7 @@
 
 
 .icontittle{
-    margin: 20px 0 0 20px;
+    margin: 20px 0px 0 10px;
     display: flex;
     flex-direction: row;
 
@@ -63,7 +65,7 @@
 
 .svg2{
 
-    margin: 20px 20px 0 0;
+    margin: 20px 10px 0 0px;
 }
 
 
@@ -180,6 +182,7 @@ color: #4393d0;
     background-color: #012f6b;
     color: #ffffff;
     grid-area: footer;
+    text-align: justify;
 
 
 }
@@ -215,6 +218,10 @@ color: #4393d0;
         // visibility: hidden;
     }
 
+    .nvbar{
+
+        align-items: center;
+    }
 
     .menulat{
 
