@@ -119,7 +119,7 @@
   background-color: #012f6b;
   color: #ffffff;
   grid-area: footer;
-  text-align: justify;
+  text-align: center;
 }
 .gridcontainer .footer svg {
   fill: white;
